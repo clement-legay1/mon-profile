@@ -1,0 +1,80 @@
+body {
+	background-color: #F6F9FC;
+	color: #053C5E;
+	font-family: "Courgette";
+	font-size: 20px;
+	text-align: center;
+}
+h1, h2 {
+	font-family: "Pacifico";
+}
+h1 {
+    color: #5E54BA;
+    font-weight: lighter;
+    font-size: 35px;
+}
+h2 {
+	color: #8B85C1;
+	font-size: 28px;
+	text-decoration: underline;
+}
+.img-circle {
+	border-radius: 50%;
+}
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+ul li {
+	display: inline;
+	padding: 0px 20px;
+}
+a:hover {
+	color: black;
+}
+#btn-blue {
+	color: white;
+	background-color: #6B72E1;
+	border-radius: 4px;
+	font-family: Times New Roman;
+	font-size: 25px;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+#btn-blue:hover {
+	color: white;
+	background-color: black;
+}
+.list-inline {
+	color: #6B72E1;
+	font-size: 48px;
+}
+.container {
+	width: 700px;
+	margin: 30px auto;
+}
+.card-white {
+	background: white;
+	padding : 30px;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+	margin: 25px;
+}
+#introduction p {
+	margin-bottom: 30px;
+}
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
